@@ -1,0 +1,49 @@
+html, body{
+    height: 100%;
+    margin: 0 0 0 0;
+}
+body{
+    background-color: #3b3b3b;
+}
+
+.grid-container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: calc(100%/3) calc(100%/3) calc(100%/3);
+    
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.grid-left{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.grid-right{
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.grid-center{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.grid-1{
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.grid-2{
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.grid-3{
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
